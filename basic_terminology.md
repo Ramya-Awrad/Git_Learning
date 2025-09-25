@@ -1,4 +1,4 @@
-# Core concepts:
+## Core concepts:
 
 | Concept                  | Description                                                                   |
 | ------------------------ | ----------------------------------------------------------------------------- |
@@ -14,7 +14,7 @@
 | **Push**                 | Upload local branch commits to a remote repository.                           |
 
 
-# Branching & Merging:
+## Branching & Merging:
 
 | Concept                | Description                                                  |
 | ---------------------- | ------------------------------------------------------------ |
@@ -25,7 +25,7 @@
 | **Conflict**           | Happens when Git can't automatically merge changes.          |
 
 
-# History & Inspection:
+## History & Inspection:
 
 | Concept    | Description                                                              |
 | ---------- | ------------------------------------------------------------------------ |
@@ -36,7 +36,7 @@
 | **Show**   | Displays various types of Git objects (commits, tags, etc.).             |
 
 
-# Remote Repositories:
+## Remote Repositories:
 
 | Concept             | Description                                         |
 | ------------------- | --------------------------------------------------- |
@@ -46,7 +46,7 @@
 | **Tracking Branch** | A local branch that tracks a remote branch.         |
 
 
-# Undo & recovery:
+## Undo & recovery:
 
 | Concept      | Description                                                        |
 | ------------ | ------------------------------------------------------------------ |
@@ -57,7 +57,7 @@
 | **Clean**    | Removes untracked files from the working directory.                |
 
 
-# Advanced concpets:
+## Advanced concpets:
 
 | Concept         | Description                                                    |
 | --------------- | -------------------------------------------------------------- |
@@ -71,7 +71,7 @@
 | **SHA-1 Hash**  | Unique identifier for commits and objects.                     |
 
 
-# Confiuration and Utilities:
+## Confiuration and Utilities:
 
 | Concept               | Description                                                      |
 | --------------------- | ---------------------------------------------------------------- |

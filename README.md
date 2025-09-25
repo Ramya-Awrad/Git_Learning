@@ -3,7 +3,7 @@ My Git learning journey with notes and examples
 
 ## Roadmap:
 
-1. Basics:
+1. Basics:  
 ✅ Goal: Understand what Git is and how to use it locally.
 
 | Topic                | What to Learn                                                    |
@@ -19,7 +19,7 @@ My Git learning journey with notes and examples
     - Track a file, make changes, commit it
 
 
-2. Working with branches:
+2. Working with branches:  
 ✅ Goal: Learn branching & merging to manage feature development
 
 | Topic                 | What to Learn                                  |
@@ -35,7 +35,7 @@ My Git learning journey with notes and examples
     - Resolve a simple conflict
 
 
-3. Remote repositories:
+3. Remote repositories:  
 ✅ Goal: Collaborate using remote git repositories
 
 | Topic               | What to Learn                        |
@@ -52,7 +52,7 @@ My Git learning journey with notes and examples
     - Collaborate with a friend
 
 
-4. Undoing & fixing mistakes:
+4. Undoing & fixing mistakes:  
 ✅ Goal: Learn to recover from common git mistakes
 
 | Topic              | What to Learn                      |
@@ -68,7 +68,7 @@ My Git learning journey with notes and examples
     - Recover a deleted file using reflog
 
 
-5. Advanced Git features:
+5. Advanced Git features:  
 ✅ Goal: Learn power-user tools for real-world collaboration
 
 | Topic         | What to Learn                      |
@@ -85,7 +85,7 @@ My Git learning journey with notes and examples
     - Stash changes and apply them later
 
 
-6. Git internals & optimization:
+6. Git internals & optimization:  
 ✅ Goal: Understand how git works under the hood
 
 | Topic                | What to Learn                          |
@@ -101,8 +101,10 @@ My Git learning journey with notes and examples
     - Create a `pre-commit` hookscript
 
 
-# Visual Git Roadmap
+## Visual Git Roadmap
 
+
+```text
 Level 1: Basics
 ├── git init / add / commit / status / log
 ├── .gitignore / config
@@ -125,4 +127,4 @@ Level 5: Advanced Tools
 Level 6: Internals
 ├── object model / .git folder
 ├── hooks / attributes
-
+```
