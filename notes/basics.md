@@ -33,7 +33,6 @@ A complete beginner-friendly guide to understanding Git and version control.
 - Download from: [https://git-scm.com/](https://git-scm.com/)
 - After installing, check the version:
 
-```bash
 git --version
 
 ---
