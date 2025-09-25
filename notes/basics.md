@@ -168,5 +168,15 @@ node_modules/
 Add .gitignore to your repo root.
 
 
+## complete summary of the above:
 
+Command	            Purpose
+git init	        Initialize Git repo
+git status	        Check status of files
+git add	            Stage files
+git commit -m	    Save snapshot
+git log	            View commit history
+git diff	        Compare file changes
+git rm	            Delete file from repo
+.gitignore	        Exclude files from Git
 
