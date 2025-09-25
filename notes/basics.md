@@ -84,9 +84,9 @@ Commit the changes using git commit
 
 Example:
 
-git status                     # Check what's going on
-git add index.html             # Stage a file
-git commit -m "Add index file" # Save the snapshot
+```git status                     # Check what's going on```
+```git add index.html             # Stage a file```
+```git commit -m "Add index file" # Save the snapshot```
 
 ## 📝 git status:
 
@@ -149,8 +149,8 @@ After staging (vs last commit):
 
 Remove a tracked file:
 
-`git rm file.txt
-git commit -m "Remove file"`
+`git rm file.txt`
+`git commit -m "Remove file"`
 
 To untrack but keep the file locally:
 
