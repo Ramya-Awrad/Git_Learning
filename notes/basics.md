@@ -33,7 +33,7 @@ A complete beginner-friendly guide to understanding Git and version control.
 - Download from: [https://git-scm.com/](https://git-scm.com/)
 - After installing, check the version:
 
-git --version
+`git --version`
 
 ---
 
@@ -49,25 +49,32 @@ git config --global user.name "Your Name"
 git config --global user.email "your@email.com"
 
 Check all configs: 
-git config --list
 
-📁 Initializing a Git Repository
+`git config --list`
+
+---
+
+## 📁 Initializing a Git Repository
 
 Turn any folder into a Git repo:
 
-git init
-
+`git init`
 
 This creates a hidden .git/ folder that stores all Git data.
 
-🧾 Git File States
-State	    Meaning
-Untracked	File is not tracked by Git
-Modified	File has been changed but not staged
-Staged	    File is marked to be committed
-Committed	Changes saved permanently in local history
+---
 
-📌 Basic Git Workflow
+🧾 Git File States
+| State | Meaning |
+|-------|---------|
+| Untracked | File is not tracked by Git |
+| Modified | File has been changed but not staged |
+| Staged | File is marked to be committed |
+| Committed | Changes saved permanently in local history |
+
+---
+
+## 📌 Basic Git Workflow
 
 Create or modify files
 
@@ -81,78 +88,75 @@ git status                     # Check what's going on
 git add index.html             # Stage a file
 git commit -m "Add index file" # Save the snapshot
 
-📝 git status
+## 📝 git status:
 
 Check the current status of files in your repo:
 
-git status
+`git status`
 
-
-Shows:
+It Shows:
 New files (untracked)
 Modified files
 Staged files ready to commit
 
-➕ git add
+## ➕ git add
 
 Add a file to the staging area:
 
-git add file.txt
+`git add file.txt`
 
 Add all files:
 
-git add .
+`git add .`
 
 Note: Files are not saved until you commit.
 
-✅ git commit
+## ✅ git commit
 
 Save a snapshot of the staged files:
 
-git commit -m "Meaningful commit message"
+`git commit -m "Meaningful commit message"`
 
 Every commit creates a unique SHA-1 hash ID.
 
-📖 git log
+## 📖 git log
 
 See your commit history:
 
-git log
-
+`git log`
 
 Short version:
 
-git log --oneline
-
+`git log --oneline`
 
 With graph:
 
-git log --oneline --graph --all
+`git log --oneline --graph --all`
 
-🔍 git diff
+## 🔍 git diff
 
 Compare changes:
 
 Before staging:
 
-git diff
+`git diff`
 
 After staging (vs last commit):
 
-git diff --staged
+`git diff --staged`
 
-🗑️ git rm
+## 🗑️ git rm
 
 Remove a tracked file:
 
-git rm file.txt
-git commit -m "Remove file"
+`git rm file.txt
+git commit -m "Remove file"`
 
 To untrack but keep the file locally:
 
-git rm --cached file.txt
+`git rm --cached file.txt`
 
-📂 .gitignore
+## 📂 .gitignore
 
 Tell Git to ignore certain files/folders:
 
@@ -167,15 +171,16 @@ node_modules/
 Add .gitignore to your repo root.
 
 
-## complete summary of the above:
+## Complete Summary of the above:
 
-Command	            Purpose
-git init	        Initialize Git repo
-git status	        Check status of files
-git add	            Stage files
-git commit -m	    Save snapshot
-git log	            View commit history
-git diff	        Compare file changes
-git rm	            Delete file from repo
-.gitignore	        Exclude files from Git
+| Command         | Purpose                  |
+|-----------------|--------------------------|
+| `git init`      | Initialize Git repo      |
+| `git status`    | Check status of files    |
+| `git add`       | Stage files              |
+| `git commit -m` | Save snapshot            |
+| `git log`       | View commit history      |
+| `git diff`      | Compare file changes     |
+| `git rm`        | Delete file from repo    |
+| `.gitignore`    | Exclude files from Git   |
 
