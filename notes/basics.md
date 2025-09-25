@@ -149,7 +149,7 @@ After staging (vs last commit):
 
 Remove a tracked file:
 
-`git rm file.txt`
+`git rm file.txt`  
 `git commit -m "Remove file"`
 
 To untrack but keep the file locally:
@@ -162,14 +162,12 @@ Tell Git to ignore certain files/folders:
 
 Example .gitignore:
 
-node_modules/
-*.log
-.env
-.DS_Store
-
+node_modules/  
+*.log  
+.env  
+.DS_Store  
 
 Add .gitignore to your repo root.
-
 
 ## Complete Summary of the above:
 
