@@ -8,6 +8,7 @@
 
 ### Common Branching commands:
 | Command | Purpose |
+|---------|---------|
 | `git branch` | List branches |
 | `git branch <name>` | Create a new branch |
 | `git checkout <name>` | Switch to a branch |
