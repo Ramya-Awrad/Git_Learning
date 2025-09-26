@@ -44,3 +44,21 @@
 `git branch -a` What it does:
 - List **all Branches** - Local and Remote
 
+# Merge Conflicts in Git:
+
+## What is a Merge Conflict?  
+- A merge conflict occurs when Git cannot automatically combine chnages between two branches. It usually happens when:
+    - Two branches modify the same line in a file 
+    - One branch deletes a file, while the other modifies it 
+    - Files are edited in different branches, and Git is unsure which version to keep
+
+### Real-life Example:
+Imagine this scenario:
+- You are working on a file called `hello.txt` in `feature` branch
+- Some one else edited the same file in main branch 
+- Now, when you try to merge `feature-1` into `main`, Git says:
+    **I can't decide which version of the file to keep**
+This is a Merge Conflict
+
+
+
