@@ -123,3 +123,10 @@ You can connect your project to multiple remotes. Example: origin and upstream.
 
 `git merge upstream/main`  or  `git rebase upstream/main`  
 
+## 🧠 Best Practices
+
+✅ Use SSH instead of HTTPS to avoid entering credentials every time.
+✅ Pull often to stay up to date with the remote.
+✅ Use meaningful remote names (origin, upstream, backup).
+✅ Always fetch before pushing on team projects.
+✅ Check git remote -v regularly to confirm your remote URLs.
