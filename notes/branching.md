@@ -57,7 +57,7 @@ Imagine this scenario:
 - You are working on a file called `hello.txt` in `feature` branch
 - Some one else edited the same file in main branch 
 - Now, when you try to merge `feature-1` into `main`, Git says:
-    **I can't decide which version of the file to keep**
+    **I can't decide which version of the file to keep**  
 This is a Merge Conflict
 
 
