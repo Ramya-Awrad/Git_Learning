@@ -166,10 +166,10 @@ Use tags to mark versions or releases.
 
 ## 10. 🧠 Best Practices
 
-✅ Use rebase interactively before PRs
-✅ Avoid rewriting history after pushing
-✅ Keep feature branches short-lived
-✅ Use stash when switching tasks
-✅ Use tags for versioning
-✅ Avoid submodules unless necessary
-✅ Explore hooks for automation
+✅ Use rebase interactively before PRs  
+✅ Avoid rewriting history after pushing  
+✅ Keep feature branches short-lived  
+✅ Use stash when switching tasks  
+✅ Use tags for versioning  
+✅ Avoid submodules unless necessary  
+✅ Explore hooks for automation  
